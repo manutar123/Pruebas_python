@@ -1,0 +1,43 @@
+# JUEGO DE LA HISTORIA LOCA
+print("CREA TU HISTORIA LOCA")
+print("Ingresa las palabras solicitadas:\n")
+
+# declaramos las variables
+#usamos input para que el usuario ingrese las palabras
+
+pal1 = input("Parte del cuerpo en plural: ")
+pal2 = input("Adjetivo en plural M: ")
+pal3 = input("Adjetivo M: ")
+pal4 = input("Adjetivo M: ")
+pal5 = input("lugar: ")
+pal6 = input("Animal: ")
+pal7 = input("Parte del cuerpo: ")
+pal8 = input("Adjetivo: ")
+pal9 = input("Adjetivo plural F: ")
+pal10 = input("Adverbio: ")
+pal11 = input("Interjección: ")
+pal12 = input("Adjetivo plural F: ")
+pal13 = input("Nombre propio: ")
+pal14 = input("Nombre F: ")
+
+print("\n ESTA ES LA HISTORIA QUE HAS CREADO\n")
+
+print(f"Antiguamente, el ser humano caminaba a cuatro {pal1},")
+print(f"se expresaba mediante gruñidos {pal2} y no sabía encender")
+print(f"un {pal3} fuego. Esta es la historia del día en que la humanidad")
+print(f"cambió para siempre (traducida del {pal4} idioma de la cavernas)\n")
+print("\33[1m" + "Hombre de las cavernas 1:" + "\33[0m"," En esta cueva hace más frío que en (el/la)")
+print(f"{pal5} incluso con la piel del/de la {pal6} mas caliente no")
+print(f"consigo que mi {pal7} deje de tiritiar.\n") 
+print(f"Hombre de las cavernas 2: Si al menos pudiésemos encontrar una")
+print(f"manera de que el frío fuera más {pal8}.\n")
+print(f"Hombre de las cavernas 1: Estoy aburrido. Creo que voy a jugar un")
+print(f"rato con estas ramas {pal9}.\n")
+print(f"Hombre de las cavernas 2: ¿Por qué no las frotas {pal10} a ver")
+print("que pasa?\n")
+print(f"Hombre de las cavernas 1: ¡{pal11}! Está saliendo humo de")
+print(f"las {pal12} ramas!\n")
+print(f"Hombre de las cavernas 2: ¡Ay! ¡Por el amor de")
+print(f"{pal13.upper()}, hemos conseguido calor!\n")
+print(f"Hombre de las cavernas 1: A partir de ahora, llamaremos <<fuego>> a esta")
+print(f"{pal14.capitalize()} mágica.")
